@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Топ лучших инструментов искусственного интеллекта. Сравнивайте, смотрите рейтинги и отзывы пользователей о популярных ИИ сервисах.">
+    <meta name="keywords" content="ИИ, AI, инструменты, ChatGPT, Gemini, Claude, бесплатные, рейтинг">
+    <meta name="author" content="AI Tools Hub">
+    <title>ТОП ИИ инструментов - Рейтинги, отзывы, сравнение</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🤖 ТОП ИИ инструментов</h1>
+        <p class="subtitle">Лучшие сервисы для работы с искусственным интеллектом</p>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-box" 
+                placeholder="Поиск инструмента..."
+            >
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="text">Текст</button>
+                <button class="filter-btn" data-filter="code">Код</button>
+                <button class="filter-btn" data-filter="image">Изображение</button>
+                <button class="filter-btn" data-filter="other">Другое</button>
+            </div>
+        </div>
+
+        <div class="tools-grid" id="toolsGrid"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ТОП ИИ инструментов. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
